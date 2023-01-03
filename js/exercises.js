@@ -41,8 +41,8 @@
 
   function isVowel(vowel) {
     var comparison = "";
-    
-    if (vowel === vowel) {
+    var comparison = vowel.match(/[aeiou]/);
+    if (comparison === vowel) {
       
   
       return true;
