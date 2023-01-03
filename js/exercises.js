@@ -13,7 +13,6 @@
    } else {
      return num2;
    }
-    console.log(num1 || num2);
   };
  // if x > y than print x. If not, print y.
 
