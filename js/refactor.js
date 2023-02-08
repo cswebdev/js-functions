@@ -193,8 +193,9 @@
 
   // callTenTime(functionName);
   function callTenTimes(callback) {
-  Array.from(Array.from(Array(10).keys())).forEach(callback)};
- }
+    Array.from(Array.from(Array(10).keys())).forEach(callback);
+  }
+
   // Put your answer below -------------------------
 
   // -----------------------------------------------
@@ -223,9 +224,9 @@
   };
 
   // Put your answer below -------------------------
- const scoreUp =[score++];
- const scoreDown =[score--];
- const scoreTotal = scoreUp.concat(scoreDown);
+  const scoreUp = [score++];
+  const scoreDown = [score--];
+  const scoreTotal = scoreUp.concat(scoreDown);
   // -----------------------------------------------
 
   //////////////////////////////////////////////////
@@ -244,7 +245,7 @@
   var twoPlusTwo = addNumbers(2, 2);
 
   // Put your answer below -------------------------
-  function numbers(numberA,numberB) {
+  function numbers(numberA, numberB) {
     return numberA + numberB;
   }
   // -----------------------------------------------
@@ -274,7 +275,7 @@
   // function would result NaN if no amount parameter was provided. Adding = 1 within the function parameter allows a fall back default number to be set
 
   function accelerate(amount = 1) {
-    var accelerate = speed += amount;
+    var accelerate = (speed += amount);
     return accelerate;
   }
   // -----------------------------------------------
